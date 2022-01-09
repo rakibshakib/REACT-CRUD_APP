@@ -4,6 +4,9 @@ Technology Used:
 2. Material UI
 3. Context API 
 
+Live LinK: 
+## https://crud-app-by-rakib.netlify.app
+
 Following commend is for exploring the app..
 1. open terminal 
 2. clone this repo
