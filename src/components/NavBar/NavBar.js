@@ -16,6 +16,9 @@ const NavBar = () => {
           <Link className="route-link" to="/categories">
           Categories 
           </Link>
+          <Link className="route-link" to="/search">
+          Search Product 
+          </Link>
         </Box>
       </Box>
     </Container>

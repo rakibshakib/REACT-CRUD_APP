@@ -6,6 +6,7 @@ import EditProduct from './components/EditProduct/EditProduct';
 import NavBar from './components/NavBar/NavBar';
 import { ContextProvider } from './context/State';
 import Categories from './components/Categories/Categories';
+import SearchProduct from './components/SearchProduct/SearchProduct';
 
 function App() {
     return (
@@ -22,6 +23,7 @@ function App() {
                             element={<EditProduct />}
                         />
                         <Route path="/categories" element={<Categories />} />
+                        <Route path="/search" element={<SearchProduct />} />
                     </Routes>
                 </BrowserRouter>
             </ContextProvider>
