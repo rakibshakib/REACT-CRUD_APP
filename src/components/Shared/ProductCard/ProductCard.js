@@ -47,21 +47,20 @@ const ProductCard = ({ item }) => {
         </CardContent>
         <CardActions>
           <Button
-            size="small"
-            variant="contained"
-            color="error"
-            onClick={() => deleteProduct(item.id)}
-          >
-            Delete
-          </Button>
-
-          <Button
             onClick={()=>updateProduct(item.id)}
             size="small"
             variant="contained"
             color="success"
           >
             Update
+          </Button>
+          <Button
+            size="small"
+            variant="contained"
+            color="error"
+            onClick={() => deleteProduct(item.id)}
+          >
+            Delete
           </Button>
         </CardActions>
       </Card>

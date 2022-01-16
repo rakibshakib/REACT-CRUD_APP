@@ -14,3 +14,21 @@
   color: black;
   background-color: white;
 }
+.catList{
+  margin-top: 15px;
+  list-style: none;
+  border-bottom: 1px solid rgb(209, 209, 209);
+  padding: 10px 5px;
+  cursor: pointer;
+  font-weight: 600;
+}
+.catList:hover{
+  background-color: rgb(215, 250, 255);
+}
+.listQuantity{
+  background-color: black;
+  color: white;
+  padding: 2px 5px;
+  border-radius: 5px;
+
+}

@@ -13,6 +13,7 @@ const AddProduct = () => {
         const ProductData = { ...productDetails };
         ProductData[name] = value;
         ProductData["id"] = 101 + products.length;
+        ProductData["category"] = value.toLowerCase();
         ProductData["CreationDate"] =  new Date().toLocaleDateString()
         setProductDetails(ProductData);
     };

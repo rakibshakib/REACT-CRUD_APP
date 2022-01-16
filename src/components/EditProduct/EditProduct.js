@@ -84,7 +84,7 @@ const EditProduct = () => {
             label={`category name: ${willUpdate?.category}`}
             type="text"
             name="category"
-            onChange={(e) => setCategory(e.target.value)}
+            onChange={(e) => setCategory(e.target.value.toLowerCase())}
             variant="standard"
           />
           <Button

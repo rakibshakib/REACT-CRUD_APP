@@ -13,8 +13,8 @@ const NavBar = () => {
           <Link className="route-link" to="/add-product">
             Add Product
           </Link>
-          <Link className="route-link" to="/about">
-            About Tecnology
+          <Link className="route-link" to="/categories">
+          Categories 
           </Link>
         </Box>
       </Box>
